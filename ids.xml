@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="calendarView" type="id" />
+    <item name="diaryTextView" type="id" />
+    <item name="contextEditText" type="id" />
+    <item name="save_Btn" type="id" />
+    <item name="cha_Btn" type="id" />
+    <item name="del_Btn" type="id" />
+    <item name="endButton" type="id" />
+</resources>
