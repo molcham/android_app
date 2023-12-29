@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE5A0"
+    tools:context=".MainActivityPoem">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/potatoescute" />
+
+    <ImageButton
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:id="@+id/imageButton_seong1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/seong_real1"
+        android:background="@android:color/transparent"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageButton
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:id="@+id/imageButton_seong2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/seong_real2"
+        android:background="@android:color/transparent"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/potatoescute" />
+
+
+
+
+
+</LinearLayout>
